@@ -37,7 +37,7 @@ public class HolidayService {
         this.searchBusinessDay = searchBusinessDay;
     }
 
-
+    @Transactional
     public HolidayDTO save(HolidayDTO holidayDTO) {
         checkingStartDate(holidayDTO);
 
