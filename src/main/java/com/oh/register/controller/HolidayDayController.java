@@ -23,7 +23,7 @@ import java.util.List;
 @RestController
 @RequestMapping("/holidayday")
 @Tag(name = "Operations on HolidayDay")
-//@CrossOrigin(origins = "*")
+@CrossOrigin(origins = "*")
 public class HolidayDayController {
     private final HolidayDayService holidayDayService;
     private final BindingErrorHandler bindingErrorHandler;
