@@ -22,7 +22,7 @@ import javax.validation.Valid;
 import java.util.List;
 
 @RestController
-@CrossOrigin(origins = "*")
+//@CrossOrigin(origins = "*")
 @RequestMapping("/employee")
 @Tag(name = "Operations on Employee")
 public class EmployeeController {

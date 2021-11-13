@@ -21,7 +21,7 @@ import java.time.format.DateTimeFormatter;
 import java.util.Set;
 
 @RestController
-@CrossOrigin(origins = "*")
+//@CrossOrigin(origins = "*")
 @Tag(name = "Operations on Holiday")
 public class HolidayController {
     private final HolidayService holidayService;
